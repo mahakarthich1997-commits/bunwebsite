@@ -277,7 +277,10 @@ body {
 ========================= */
 
 @media (max-width: 768px) {
-
+      .one {
+        height: 500px;
+        overflow: hidden;
+    }
     .navbar {
         padding: 0 20px;
     }
@@ -333,7 +336,10 @@ body {
 ========================= */
 
 @media (max-width: 480px) {
-
+    .one {
+        height: 50vh !important;
+        min-height: 0 !important;
+    }
     .navbar {
         padding: 0 15px;
     }
